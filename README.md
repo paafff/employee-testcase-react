@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-my-app/
+<!-- my-app/
 ├── public/
 │   └── vite.svg
 ├── src/
@@ -26,7 +26,9 @@ my-app/
 ├── package.json
 ├── tailwind.config.js
 ├── tsconfig.json
-└── vite.config.ts
+└── vite.config.ts -->
+
+![alt text](image.png)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
