@@ -5,6 +5,8 @@ import Auth from './pages/Auth';
 import Biodata from './pages/Biodata';
 import ListUsers from './pages/ListUsers';
 import DetailUser from './pages/DetailUser';
+import AIChat from './pages/AIChat';
+import UploadFile from './pages/UploadFile';
 
 const App: React.FC = () => {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -57,6 +59,8 @@ const App: React.FC = () => {
         <Route path="/biodata" element={<Biodata />} />
         <Route path="/list-users" element={<ListUsers />} />
         <Route path="/detail-user/:id" element={<DetailUser />} />
+        <Route path="/ai-chat" element={<AIChat />} />
+        <Route path="/upload-file" element={<UploadFile />} />
       </Routes>
     </div>
   );

@@ -3,9 +3,6 @@ import Layout from '../components/Layout';
 import FormInputBiodata from '../components/FormInputBiodata';
 import { getUserData } from '../utils/auth';
 
-
-
-
 const Biodata: React.FC = () => {
   const user = getUserData();
 
